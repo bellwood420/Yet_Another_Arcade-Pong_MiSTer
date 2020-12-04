@@ -4,7 +4,7 @@
 + Ported to MiSTer from [pong-arcade-fpga](https://github.com/bellwood420/pong-arcade-fpga) 
 + There already exists Arcade Pong in official MiSTer cores, so this is an unofficial yet another version.
 
-# Inputs
+## Inputs
 + Keyboard
 ```
    Coin        : Any of the following keys will work
@@ -19,7 +19,7 @@
 ```
 + Joystick, Paddle are supported
 
-# What's the difference from the official core?
+## What's the difference from the official core?
 In terms of just playing the game, there is no major difference.
 
 Technically it differs in the following way:
@@ -30,7 +30,7 @@ I found this technique introduced in [this paper](http://www.cs.columbia.edu/~se
 At first, I was trying to implement Pong in the same way as the official core.
 But I gave it up since I encounterd intolerable unstability due to asynchronous factor.
 
-# Why duplicate yet another core?
+## Why duplicate yet another core?
 I wanted my fpga work to be enjoyed by more people.
 
 Unfortunately my original work ([pong-arcade-fpga](https://github.com/bellwood420/pong-arcade-fpga)) requires external analog circuit to play.
