@@ -286,7 +286,7 @@ end
 
 ///////////////////////    SOUND    ///////////////////////////////
 wire sound;
-assign AUDIO_L = {1'b0, ~sound, 14'b0};
+assign AUDIO_L = {3'b0, ~sound, 12'b0};
 assign AUDIO_R = AUDIO_L;
 assign AUDIO_S = 0;
 assign AUDIO_MIX = 'd3;
